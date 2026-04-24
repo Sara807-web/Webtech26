@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Einführung - Lerne die Grundlagen</title>
+</head>
+<body>
+    <header>
+        <h1>Willkommen zur HTML-Einführung</h1>
+        <p>HTML enthält alle Inhalt</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#struktur">Die Grundstruktur</a></li>
+            <li><a href="#texte">Über mich</a></li>
+            <li><a href="#medien">Bilder und Links</a></li>
+            <li><a href="#tabellen">Tabellen</a></li>
+            <li><a href="#details">Akkordeon</a></li>
+            <li><a href="#dialog">Modaler Dialog</a></li>
+
+        </ul>
+    </nav>
+    <main> 
+        <section id=" struktur">
+            <h2> 1. Die Grundstruktur </h2>
+         <p> Jedes HTML-Dokument beginnt mit dem <code>&alt; !DOCTYPE html&gt;</code>. Dies sagt den Browser, dass es sich um ein modernes HTML5-Dokument handelt </p>
+         <p> Die wichtigsten "Eltern-Elemente" sind: </p>
+         <ul>
+            <li> <strong>&alt;html&gt;</strong>: Die Wurzel des Dokuments.</li>
+            <li><strong>&alt;head&gt;</strong>: Enthält Metadaten ( nicht sichtbar auf der Seite).</li>
+            <li><strong>&alt;body&gt;</strong>: Hier kommt alles rein was die Nutzerin sieht.</li>
+        </ul>
+        </section>
+        <section id="text"> 
+            <h2> 2. Texte und Listen </h2>
+            <p> Man nutzt Überschriften von <code> &alt;h1&gt;</code>bis <code>&alt; h6&gt; </code>, um Inhalte zu Strukturieren. </p>
+
+            <h3> Geordnete Liste (Beispiel ) </h3>
+            <ol> 
+                <li> HTML lernen</li>
+                <li> CSSS lernen</li>
+                <li> JavaScript lernen</li>
+            </ol>
+        </section>
+
+        <section id="medien">
+            <h2> 3. Bilder und Verweise </h2>
+            <p> Ein Link wird mit dem >Span class ="highlight"> Anchor-Tag</p> <code>&alt;a&gt;</code> erstellt:</p>
+            <a href="https://www.htw-berlin.de/" target="-blank">Dieser ist ein externer Link zur HTW-Seite </a>
+            <h3> Ein Bild einbilden </h3>
+            <p> Bilder benötien ein <code>src</code> (Quelle) und ein <code> alt</code> (alternative für Screenreader) Attribut. </p>
+            <img src="./htwlogo.jpg" alt=" Beispielbild ">
+        </section>
+        <section id=" tabellen">
+            <h2> 4. Daten in Tabellen strukturieren </h2>
+            <p> Tabellen werden in der HTML Zeile für Zeile aufgebaut. Hier sind die wichtigsten Tags:</p>
+            <ul> 
+                
+                <thead>
+                    <tr style="background-color: #eee;">
+                        <th>Tag</th>
+                        <th>Beschreibung</th>
+                        <th>Beispiel</th>
+                    </tr>
+
+                    </head>
+            </ul>
+            
+        </section>
+
+
+    </main>
+
+
+
+</body>
+</html>
